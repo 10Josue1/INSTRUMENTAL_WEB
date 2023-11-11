@@ -1,0 +1,279 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 28/10/2023, 12:26:52
+    Author     : samuel
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+:root {
+    --padding-container: 100px 0;
+    --color-title: #3C3D3E;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e5e5f7;
+}
+
+
+
+.containerr{
+    background-color: #fff;
+
+    
+}
+/* NAV */
+
+.nav {
+    --padding-container: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav__title {
+    font-weight: 300;
+}
+
+.nav__link {
+    margin-left: auto;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 2em;
+    align-items: center;
+    text-align: center;
+    
+    
+    
+}
+
+.nav__items {
+    list-style: none;
+}
+
+.nav__links {
+    text-decoration: none;
+    background-color: #340064;
+    display: inline-block;
+    padding: 5px;
+    transition: background-color 5s;
+    transition: 1s all;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 10px;
+    border-radius: 7px;
+}
+
+.nav__links:hover {
+    color:#fff;
+    transform: scale(1.03);
+    cursor: pointer;
+    background-color: #acf2b2;
+    text-decoration: none;
+}
+
+.nav__menu {
+    margin-left: auto;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+.boton{
+     text-decoration: none;
+    background-color: red;
+    color: #f2f2f2;
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+    padding: 8px 10px;
+    border-radius: 7px;
+
+    
+}
+
+
+
+
+
+.btn{
+    
+    background-color: #92cb97;
+    text-decoration: none;
+   }
+
+
+
+.btnde{
+    background-color: #92cb97;
+    display: inline-block;
+    padding: 5px;
+    transition: background-color 5s;
+    transition: 1s all;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 7px;
+}
+
+
+
+
+
+
+
+
+
+/*
+.btnag{
+    text-decoration: none;
+    background-color: #6523a2;
+    display: inline-block;
+    padding: 5px;
+    transition: background-color 5s;
+    transition: 1s all;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 10px;
+    border-radius: 7px;
+    
+}
+
+.btnag:hover{
+     color:#fff;
+    transform: scale(1.03);
+    cursor: pointer;
+    background-color: #52158b;
+    text-decoration: none;
+    
+}
+*/
+
+
+.btnagg{
+    text-decoration: none;
+    background-color: #6523a2;
+    display: inline-block;
+    padding: 5px;
+    transition: background-color 5s;
+    transition: 1s all;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 10px;
+    border-radius: 7px;
+    }
+
+.nav__close {
+    display: var(--show, none);
+}
+
+
+
+
+.form-control{
+ padding-bottom: 10px;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FORMULARIO*/
+
+.bodyy {
+    min-height: 60vh;
+    width: 100%;
+    display: flex;
+}
+
+.form {
+    background: rgba(255, 255, 255, 0.24);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.2px);
+    -webkit-backdrop-filter: blur(5.2px);
+    border: 1px solid rgba(255, 255, 255, 0.47);
+    width: 70%;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+    color: #fff;
+    
+    background-color: #403f3f;
+}
+
+.form__container {
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+
+.form__title {
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: .4em;
+    color: #fff;
+}
+
+.form__input {
+    background-color: #ffffff1f;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    padding: .8em 1em;
+    outline: none;
+    border: none;
+    border-bottom: 1.5px solid #bbb0b0;
+    border-radius: 0.5em;
+    color: #fff;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+.form__input--message {
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: .5em;
+    color: #fff;
+}
+
+.form__cta {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    color: #3C3D3E;
+    border: none;
+    font-size: 1.2rem;
+    padding: 1em 0;
+    border-radius: .2em;
+    cursor: pointer;
+    font-weight: 700;
+    transition: transition 2s;
+}
+
+.form__cta:hover {
+    color: #659e6cc8;
+    transition: 1s all;
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+
+
